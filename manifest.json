@@ -1,0 +1,23 @@
+{
+"icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+
+"manifest_version": 2,
+    "name": "PL-Cool",
+    "description": "A chrome extension that replaces several popular scripting language mentions with -Haskell-",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+
+
+}
