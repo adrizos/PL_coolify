@@ -1,7 +1,7 @@
 # PL_coolify
 
 PL_coolify is a Chrome extension that replaces text mentions of several popular scripting language
-names with "Haskell". I hope the program language kids at CMU find this entertaining.
+names with "Haskell". I hope the program language theory kids at CMU find this entertaining.
 
 ## How to install
 
